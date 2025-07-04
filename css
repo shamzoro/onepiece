@@ -1,0 +1,96 @@
+.zoro{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid green;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1)
+}
+body{
+    font-family: 'sagoe u1',sans-serif;
+    font-size: 16px;
+    background-color: beige;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: blue;
+    margin-bottom: 10px;
+}
+h2{
+    color: brown;
+    margin-top:  30px;
+}
+header{
+    background-color: aqua;
+    padding: 10px 0;
+
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+nav ul li a:hover{
+text-decoration: underline;
+color: chocolate;
+}
+#home{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: cornflowerblue;
+}
+#home h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+#home a{
+    display:inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.zoro:hover{
+    transform: scale(1,52);
+    transition: transform 0.3s ease;
+}
+#home a:hover{
+    background-color: forestgreen;
+}
+#projects{
+    padding: 40px 20px;
+}
+.projects-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.project-card{
+background-color: rgb(243, 150, 10);
+padding: 20px;
+border: 1px solid wheat;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+width: calc(33.3% - 40px);
+box-sizing: border-box;
+}
+.project-card h3{
+    margin-bottom: 10 px;
+}
+.project-card p{
+    color: darkblue;
+}
