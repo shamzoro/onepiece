@@ -94,3 +94,46 @@ box-sizing: border-box;
 .project-card p{
     color: darkblue;
 }
+@media(max-width :768px){
+    .projects-wrapper{
+        flex-direction: column;
+    }
+    .project-card{
+        width: 100%;
+    }
+}
+#contact{
+    padding: 40px 20px;
+}
+form{
+    max-width: 600px;
+    margin: 0 auto;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button[type="submit"]{
+    background-color: black;
+    color: brown ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+button[type="submit"]:hover{
+    background-color: darkslategrey;
+    cursor: pointer;
+}
+@media(max-width :768px){
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-card{
+        width: 100%;
+    }
+}
